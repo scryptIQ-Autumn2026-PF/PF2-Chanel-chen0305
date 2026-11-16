@@ -1,0 +1,16 @@
+
+[project]
+name = "scryptiq-VE"
+version = "0.1.0"
+description = "scryptIQ General Virtual Environment"
+requires-python = ">=3.12, <3.14"
+
+dependencies = [
+    "jupyterlab>=4",
+    "ipykernel>=7",
+    "ipywidgets",
+    "requests",
+]
+
+[dependency-groups]
+dev = []
